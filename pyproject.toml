@@ -1,17 +1,9 @@
-[tool.poetry]
+[project]
 name = "redesigned-octo-doodle"
 version = "0.1.0"
-description = ""
-authors = ["mlazuli <123791982+mlazuli@users.noreply.github.com>"]
+description = "Add your description here"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.12"
-ruff = "^0.5.2"
-pydantic = "^2.8.2"
-mypy = "^1.10.1"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.116.1",
+]
